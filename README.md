@@ -1,2 +1,3 @@
 # RNAseq_Workflow
-This workflow processes raw RNA‑seq FASTQ files using FastQC for quality checks, STAR for alignment, and SAMtools/featureCounts to generate raw read counts and TPM values for downstream expression analysis.
+This document describes the complete workflow for downloading RNA‑seq data from JGI, preprocessing FASTQ files, performing QC, trimming, mapping reads with STAR, generating BAM files, and producing gene‑level counts and summarized expression matrices.
+
