@@ -8,7 +8,7 @@ This document describes the complete workflow used to process maize RNA‑seq da
 
 ```bash
 # Create primary environment
-conda create -n bioinfo -y
+conda create -n bioinfo
 conda activate bioinfo
 
 # Core tools
