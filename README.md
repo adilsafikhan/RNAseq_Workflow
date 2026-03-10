@@ -41,7 +41,7 @@ data/
 └── trimmed_fastq_file_2026/      # trimmed FASTQ outputs (2026)
 ```
 
-**Note:** For 2026, some samples were sequenced on two lanes and merged (e.g., `*_R1_merged.fastq.gz`, `*_R2_merged.fastq.gz`). For 2024, one sample’s R2 is missing; alignment/trimming skipped for that sample pending re-supply. Later I found the sample. 
+**Note:** For 2026, samples were sequenced on two lanes and merged (e.g., `*_R1_merged.fastq.gz`, `*_R2_merged.fastq.gz`). For 2024, one sample’s R2 is missing; alignment/trimming skipped for that sample pending re-supply. Later I found the sample. 
 
 ---
 
@@ -111,9 +111,7 @@ STAR --runMode genomeGenerate \
   --sjdbGTFfile reference/Zea_mays.Zm-B73-REFERENCE-NAM-5.0.62.gtf.gz \
   --sjdbOverhang 149
 ```
-
 ---
-
 ## 7) STAR Mapping (Parallel on All Years)
 
 **scripts/run_star.sh**
@@ -311,7 +309,6 @@ Interpretation:
 - If ambiguous or unstranded → `-s 0`
 
 **Empirical result in this project:** **reverse-stranded** (use `-s 2`).
-
 ---
 
 ## 12) Gene-level Counts with featureCounts
@@ -334,7 +331,6 @@ feature_count/gene_counts.txt
 ```
 
 ---
-
 ## 13) Summary of Key Outputs
 
 - **STAR BAMs** → `mapping/*_Aligned.sortedByCoord.out.bam`  
