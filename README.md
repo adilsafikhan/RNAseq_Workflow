@@ -43,15 +43,15 @@ data/
 
 **Note:** For 2026, samples were sequenced on two lanes and merged (e.g., `*_R1_merged.fastq.gz`, `*_R2_merged.fastq.gz`). For 2024, one sample’s R2 is missing; alignment/trimming skipped for that sample pending re-supply. Later I found the sample. 
 
-Raw data is /DataVault/Paape_Genomics/PaapeLab_NGS_rawData/Maize/Hi-A_Maize
+Raw data is located at the jedi server :  /DataVault/Paape_Genomics/PaapeLab_NGS_rawData/Maize/Hi-A_Maize  : Under this directory, there are four directories which correspond one sequensing project.
 
 This project includes data from five experiments. Sequencing was performed in four rounds. The project IDs and corresponding sample numbers are listed below.
 In two of the projects, each sample was delivered as four FASTQ files. After receiving the data, these FASTQ files were merged, and the resulting filenames contain the word “merged.” Additionally, one of the projects included samples belonging to two different experiments.
 Project details:
 
-24237Tim: 30 samples 
-24562Tim: 18 samples
-25531Tim: 23 samples
+24237Tim: 30 samples \
+24562Tim: 18 samples \
+25531Tim: 23 samples \
 26057Tim: 17 samples
 
 Note: Project 26057Tim originally contained 16 samples. One additional sample was a re-sequenced sample from a previous experiment due to failed QC.
